@@ -1,0 +1,8 @@
+Django>=4.2
+openai
+langchain>=0.1.13
+langchain-community>=0.0.26
+langchain-core>=0.1.25
+sqlalchemy>=2.0
+pymysql
+python-3.11.11
