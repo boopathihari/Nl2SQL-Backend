@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-fn2imu$bx%af+07)#kr06mlkneqeg)*5e)juqp9+mx!)du^--4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 import os
 
@@ -65,10 +64,14 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-   'localhost',
-    '127.0.0.1',
-    'nl2sql-backend-zqrg.onrender.com',
-    'nltosql-frontend.onrender.com',  
+    "http://localhost:3000",
+]
+
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "nl2sql-backend-zqrg.onrender.com",
+    'nltosql-frontend.onrender.com'
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
