@@ -65,7 +65,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+   'localhost',
+    '127.0.0.1',
+    'nl2sql-backend-zqrg.onrender.com',
+    'nltosql-frontend.onrender.com',  
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
