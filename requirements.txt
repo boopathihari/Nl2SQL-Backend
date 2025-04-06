@@ -6,3 +6,5 @@ langchain-community>=0.0.26
 langchain-core>=0.1.25
 sqlalchemy>=2.0
 pymysql
+djangorestframework
+
